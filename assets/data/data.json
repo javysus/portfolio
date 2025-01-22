@@ -1,6 +1,6 @@
 {
     "title": "Javiera Villarroel Toloza | Portafolio",
-    "description": "XD",
+    "description": "",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
     "name": "Javiera Paz Villarroel Toloza",
@@ -12,7 +12,7 @@
         "github": "https://github.com/javysus",
         "likedin": "https://linkedin.com/in/jvillarroelt"
     },
-    "about": "Desarrolladora full-stack",
+    "about": "Ingeniera Civil Informática con experiencia en desarrollo full-stack, especializada en Flutter y React. Apasionada por el desarrollo y la innovación, me enfoco en aplicar buenas prácticas de desarrollo mientras amplío constantemente mis conocimientos.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -93,14 +93,14 @@
                     "name": "Unity"
                 }
             ],
-            "image": "/project_1.jpg",
+            "image": "/fakefriend.jpg",
             "url": "https://fakefriend.feriadesoftware.cl/",
             "github": "https://github.com/javysus/Fake-Friend-VR"
         },
         {
             "icon": "library-big",
             "title": "Sistema de Préstamo en Biblioteca",
-            "subtitle": "Desarrollo de front-end.",
+            "subtitle": "Desarrollo de front-end",
             "description": "Plataforma web para realizar préstamos en una biblioteca. Desarrollo de front-end.",
             "technologies": [
                 {
@@ -117,7 +117,7 @@
         {
             "icon": "library-big",
             "title": "Sistema de Préstamo en Biblioteca",
-            "subtitle": "Desarrollo de back-end.",
+            "subtitle": "Desarrollo de back-end",
             "description": "Plataforma web para realizar préstamos en una biblioteca.",
             "technologies": [
                 {
@@ -134,7 +134,7 @@
         {
             "icon": "message-circle",
             "title": "Chat",
-            "subtitle": "Desarrollo de back-end.",
+            "subtitle": "Desarrollo de back-end",
             "description": "Desarrollo de API y Websocket para la creación de un chat.",
             "technologies": [
                 {
@@ -174,5 +174,8 @@
             "description": "",
             "date": "2016"
         }
+    ],
+    "extras": [
+      
     ]
 }
