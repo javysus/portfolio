@@ -1,12 +1,12 @@
 import reflex as rx
 from portafolio.components.heading import heading
-from portafolio.data import Technology
+from portafolio.data import Framework
 from portafolio.styles.styles import EmSize, Size
 
 
-def tech_stack(technologies: list[Technology]) -> rx.Component:
+def frameworks(technologies: list[Framework]) -> rx.Component:
     return rx.vstack(
-        heading("Lenguajes de Programación"),
+        heading("Frameworks y Librerías"),
         rx.flex(
             *[
                 rx.badge(

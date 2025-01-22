@@ -1,128 +1,178 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Javiera Villarroel Toloza | Portafolio",
+    "description": "XD",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Javiera Paz Villarroel Toloza",
+    "skill": "Desarrolladora full-stack",
+    "location": "Santiago, Chile",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "javiera.villarroelt@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/javysus",
+        "likedin": "https://linkedin.com/in/jvillarroelt"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Desarrolladora full-stack",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
+            "icon": "devicon-python-plain",
+            "name": "Python"
         },
         {
             "icon": "devicon-c-plain",
             "name": "C"
         },
         {
-            "icon": "devicon-python-plain",
-            "name": "Python"
-        }
-    ],
-    "experience": [
-        {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
+            "icon": "devicon-csharp-plain",
+            "name": "C#"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "devicon-javascript-plain", 
+            "name": "Javascript"
+        },
+        {
+            "icon": "devicon-java-plain",
+            "name": "Java"
+        } 
+    ],
+
+    "frameworks": [{
+        "icon": "devicon-react-original",
+        "name": "React"
+    },
+    {
+        "icon": "devicon-reactbootstrap-original",
+        "name": "React Bootstrap"
+    },
+
+    {
+        "icon": "devicon-flutter-plain",
+        "name": "Flutter"
+    },
+
+    {"icon": "devicon-spring-original",
+"name": "SpringBoot"}
+],
+    
+    "experience": [
+        {
+            "icon": "car",
+            "title": "TeLlevoApp",
+            "subtitle": "Front-End Flutter Developer",
+            "description": "Desarrollo de una aplicación móvil de transporte compartido utilizando Flutter con arquitectura limpia.",
+            "date": "2024 - Actualidad"
+        },
+        {
+            "icon": "hand-coins",
+            "title": "NetPag",
+            "subtitle": "Memorista - Desarrolladora",
+            "description": "Desarrollo de un data mart en SQL Server para la empresa en el área B2C como también desarrollos web con React.",
+            "date": "2023 - 2024"
+        },
+        {
+            "icon": "hand-coins",
+            "title": "NetPag",
+            "subtitle": "Data Engineer",
+            "description": "Práctica profesional desarrollando ETLs mediante Talend y trabajando con SQL Server.",
+            "date": "2022 - 2022"
         }
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "glasses",
+            "title": "Fake Friend",
+            "subtitle": "Simulador en realidad virtual",
+            "description": "Simulador en realidad virtual que imita los efectos tanto a corto como a largo plazo de drogas depresoras, estimulantes y alucinógenas.",
             "technologies": [
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
+                    "icon": "devicon-csharp-plain",
+                    "name": "C#"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
+                    "icon": "devicon-unity-plain",
+                    "name": "Unity"
                 }
             ],
             "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            "url": "https://fakefriend.feriadesoftware.cl/",
+            "github": "https://github.com/javysus/Fake-Friend-VR"
         },
         {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
+            "icon": "library-big",
+            "title": "Sistema de Préstamo en Biblioteca",
+            "subtitle": "Desarrollo de front-end.",
+            "description": "Plataforma web para realizar préstamos en una biblioteca. Desarrollo de front-end.",
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
+                    "icon": "devicon-reactbootstrap-original",
+                    "name": "React Bootstrap"
+                },
+                {
+                    "icon": "devicon-nodejs-plain",
+                    "name": "Nodejs"
                 }
             ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "github": "https://github.com/javysus/WWW-frontend"
+        },
+        {
+            "icon": "library-big",
+            "title": "Sistema de Préstamo en Biblioteca",
+            "subtitle": "Desarrollo de back-end.",
+            "description": "Plataforma web para realizar préstamos en una biblioteca.",
+            "technologies": [
+                {
+                    "icon": "devicon-graphql-plain",
+                    "name": "GraphQL"
+                },
+                {
+                    "icon": "devicon-mongodb-plain",
+                    "name": "MongoDB"
+                }
+            ],
+            "github": "https://github.com/javysus/WWW-backend"
+        },
+        {
+            "icon": "message-circle",
+            "title": "Chat",
+            "subtitle": "Desarrollo de back-end.",
+            "description": "Desarrollo de API y Websocket para la creación de un chat.",
+            "technologies": [
+                {
+                    "icon": "devicon-springboot-plain",
+                    "name": "Springboot"
+                }
+            ],
+            "github": "https://github.com/javysus/Chat_SpringBoot"
         }
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        },
-        {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        }
-    ],
-    "extras": [
-        {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
+            "title": "Universidad Técnica Federico Santa María",
+            "subtitle": "Ingeniería Civil Informática",
+            "description": "",
+            "date": "2024"
         },
         {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
+            "icon": "university",
+            "title": "Universidad Autónoma de Chile",
+            "subtitle": "Diplomado en Inteligencia Artificial",
+            "description": "",
+            "date": "2024"
         },
         {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "icon": "university",
+            "title": "Universidad de Chile",
+            "subtitle": "Movilidad Parcial",
+            "description": "En mis estudios de Ingeniería Civil Informática, curse asignaturas en la Universidad de Chile como programa de Movilidad Parcial de mi Universidad.\n Desarrollo de aplicaciones web \n Procesamiento masivo de datos.",
+            "date": "2022"
+        },
+        {
+            "icon": "school",
+            "title": "Colegio Academia de Humanidades Padres Dominicos",
+            "subtitle": "Educación Media",
+            "description": "",
+            "date": "2016"
         }
     ]
 }

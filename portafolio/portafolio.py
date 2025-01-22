@@ -7,7 +7,7 @@ from portafolio.views.footer import footer
 from portafolio.views.header import header
 from portafolio.views.info import info
 from portafolio.views.tech_stack import tech_stack
-
+from portafolio.views.frameworks import frameworks
 DATA = data.data
 
 
@@ -19,6 +19,7 @@ def index() -> rx.Component:
             about(DATA.about),
             rx.divider(),
             tech_stack(DATA.technologies),
+            frameworks(DATA.frameworks),
             info("Experiencia", DATA.experience),
             info("Proyectos", DATA.projects),
             info("Formación", DATA.training),
@@ -39,7 +40,7 @@ app = rx.App(
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
-        accent_color="grass",
+        accent_color="violet",
         radius="full"
     )
 )
