@@ -1,0 +1,214 @@
+{
+    "title": "Javiera Villarroel Toloza | Portafolio",
+    "description": "",
+    "image": "/avatar.jpg",
+    "avatar": "/avatar.jpg",
+    "name": "Javiera Paz Villarroel Toloza",
+    "skill": "Data Engineer | Full Stack Developer",
+    "location": "Santiago, Chile",
+    "media": {
+        "email": "javiera.villarroelt@gmail.com",
+        "cv": "/data/CVJavieraVillarroel.pdf",
+        "github": "https://github.com/javysus",
+        "likedin": "https://linkedin.com/in/jvillarroelt"
+    },
+    "about": "Ingeniera Civil Informática con experiencia en desarrollo full-stack, especializada en Flutter y React. Apasionada por el desarrollo y la innovación, me enfoco en aplicar buenas prácticas de desarrollo mientras amplío constantemente mis conocimientos.",
+    "technologies": [
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-c-plain",
+            "name": "C"
+        },
+        {
+            "icon": "devicon-csharp-plain",
+            "name": "C#"
+        },
+        {
+            "icon": "devicon-javascript-plain", 
+            "name": "Javascript"
+        },
+        {
+            "icon": "devicon-java-plain",
+            "name": "Java"
+        } 
+    ],
+
+    "dataskills": [
+
+        {"icon": "devicon-microsoftsqlserver-plain",
+    "name": "SQL Server"},
+        
+    {"icon": "devicon-mongodb-plain",
+    "name": "MongoDB"},
+    
+    {"icon": "",
+    "name": "Talend"},
+
+    {"icon": "",
+    "name": "Power BI"},
+
+    {"icon": "devicon-apachespark-plain-wordmark",
+    "name": "Apache Spark"},
+
+    {"icon": "devicon-hadoop-plain",
+    "name": "Hadoop"},
+
+    {"icon": "devicon-sqlalchemy-plain",
+    "name": "SQLAlchemy"},
+
+    {"icon": "devicon-docker-plain",
+    "name": "Docker"}
+
+    ],
+
+    "frameworks": [{
+        "icon": "devicon-react-original",
+        "name": "React"
+    },
+    {
+        "icon": "devicon-reactbootstrap-original",
+        "name": "React Bootstrap"
+    },
+
+    {
+        "icon": "devicon-flutter-plain",
+        "name": "Flutter"
+    },
+
+    {"icon": "devicon-angular-plain",
+"name": "Angular"},
+
+{
+    "icon": "devicon-spring-original",
+    "name": "SpringBoot"}
+    
+],
+    
+    "experience": [
+        {
+            "icon": "car",
+            "title": "TeLlevoApp",
+            "subtitle": "Front-End Flutter Developer",
+            "description": "Desarrollo de una aplicación móvil de transporte compartido utilizando Flutter con arquitectura limpia.",
+            "date": "2024 - Actualidad"
+        },
+        {
+            "icon": "hand-coins",
+            "title": "NetPag",
+            "subtitle": "Memorista - Desarrolladora",
+            "description": "Desarrollo de un data mart en SQL Server para la empresa en el área B2C como también desarrollos web con React.",
+            "date": "2023 - 2024"
+        },
+        {
+            "icon": "hand-coins",
+            "title": "NetPag",
+            "subtitle": "Data Engineer",
+            "description": "Práctica profesional desarrollando ETLs mediante Talend y trabajando con SQL Server.",
+            "date": "2022 - 2022"
+        }
+    ],
+    "projects": [
+        {
+            "icon": "glasses",
+            "title": "Fake Friend",
+            "subtitle": "Simulador en realidad virtual",
+            "description": "Simulador en realidad virtual que imita los efectos tanto a corto como a largo plazo de drogas depresoras, estimulantes y alucinógenas.",
+            "technologies": [
+                {
+                    "icon": "devicon-csharp-plain",
+                    "name": "C#"
+                },
+                {
+                    "icon": "devicon-unity-plain",
+                    "name": "Unity"
+                }
+            ],
+            "image": "/fakefriend.jpg",
+            "url": "https://fakefriend.feriadesoftware.cl/",
+            "github": "https://github.com/javysus/Fake-Friend-VR"
+        },
+        {
+            "icon": "library-big",
+            "title": "Sistema de Préstamo en Biblioteca",
+            "subtitle": "Desarrollo de front-end",
+            "description": "Plataforma web para realizar préstamos en una biblioteca. Desarrollo de front-end.",
+            "technologies": [
+                {
+                    "icon": "devicon-reactbootstrap-original",
+                    "name": "React Bootstrap"
+                },
+                {
+                    "icon": "devicon-nodejs-plain",
+                    "name": "Nodejs"
+                }
+            ],
+            "github": "https://github.com/javysus/WWW-frontend"
+        },
+        {
+            "icon": "library-big",
+            "title": "Sistema de Préstamo en Biblioteca",
+            "subtitle": "Desarrollo de back-end",
+            "description": "Plataforma web para realizar préstamos en una biblioteca.",
+            "technologies": [
+                {
+                    "icon": "devicon-graphql-plain",
+                    "name": "GraphQL"
+                },
+                {
+                    "icon": "devicon-mongodb-plain",
+                    "name": "MongoDB"
+                }
+            ],
+            "github": "https://github.com/javysus/WWW-backend"
+        },
+        {
+            "icon": "message-circle",
+            "title": "Chat",
+            "subtitle": "Desarrollo de back-end",
+            "description": "Desarrollo de API y Websocket para la creación de un chat.",
+            "technologies": [
+                {
+                    "icon": "devicon-springboot-plain",
+                    "name": "Springboot"
+                }
+            ],
+            "github": "https://github.com/javysus/Chat_SpringBoot"
+        }
+    ],
+    "training": [
+        {
+            "icon": "graduation-cap",
+            "title": "Universidad Técnica Federico Santa María",
+            "subtitle": "Ingeniería Civil Informática",
+            "description": "",
+            "date": "2024"
+        },
+        {
+            "icon": "university",
+            "title": "Universidad Autónoma de Chile",
+            "subtitle": "Diplomado en Inteligencia Artificial",
+            "description": "",
+            "date": "2024"
+        },
+        {
+            "icon": "university",
+            "title": "Universidad de Chile",
+            "subtitle": "Movilidad Parcial",
+            "description": "En mis estudios de Ingeniería Civil Informática, curse asignaturas en la Universidad de Chile como programa de Movilidad Parcial de mi Universidad.\n Desarrollo de aplicaciones web \n Procesamiento masivo de datos.",
+            "date": "2022"
+        },
+        {
+            "icon": "school",
+            "title": "Colegio Academia de Humanidades Padres Dominicos",
+            "subtitle": "Educación Media",
+            "description": "",
+            "date": "2016"
+        }
+    ],
+    "extras": [
+      
+    ]
+}

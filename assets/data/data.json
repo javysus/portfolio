@@ -1,18 +1,18 @@
 {
     "title": "Javiera Villarroel Toloza | Portafolio",
     "description": "",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
+    "image": "/avatar.jpeg",
+    "avatar": "/avatar.jpeg",
     "name": "Javiera Paz Villarroel Toloza",
-    "skill": "Desarrolladora full-stack",
+    "skill": "Data Engineer | Full Stack Developer",
     "location": "Santiago, Chile",
     "media": {
         "email": "javiera.villarroelt@gmail.com",
-        "cv": "/data/CVJavieraVillarroel.pdf",
+        "cv": "/data/JavieraPazVillarroelToloza.pdf",
         "github": "https://github.com/javysus",
         "likedin": "https://linkedin.com/in/jvillarroelt"
     },
-    "about": "Ingeniera Civil Informática con experiencia en desarrollo full-stack, especializada en Flutter y React. Apasionada por el desarrollo y la innovación, me enfoco en aplicar buenas prácticas de desarrollo mientras amplío constantemente mis conocimientos.",
+    "about": "Engineer with experience in full-stack development (specializing in Flutter and React) and data engineering (ETL pipelines, data modeling, Apache Spark, Hadoop). Passionate about building efficient, scalable solutions, applying best development practices while continuously expanding knowledge across software and data systems.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -36,6 +36,34 @@
         } 
     ],
 
+    "dataskills": [
+
+        {"icon": "devicon-microsoftsqlserver-plain",
+    "name": "SQL Server"},
+        
+    {"icon": "devicon-mongodb-plain",
+    "name": "MongoDB"},
+    
+    {"icon": "",
+    "name": "Talend"},
+
+    {"icon": "chart-area",
+    "name": "Power BI"},
+
+    {"icon": "devicon-apachespark-plain-wordmark",
+    "name": "Apache Spark"},
+
+    {"icon": "devicon-hadoop-plain",
+    "name": "Hadoop"},
+
+    {"icon": "devicon-sqlalchemy-plain",
+    "name": "SQLAlchemy"},
+
+    {"icon": "devicon-docker-plain",
+    "name": "Docker"}
+
+    ],
+
     "frameworks": [{
         "icon": "devicon-react-original",
         "name": "React"
@@ -50,8 +78,13 @@
         "name": "Flutter"
     },
 
-    {"icon": "devicon-spring-original",
-"name": "SpringBoot"}
+    {"icon": "devicon-angular-plain",
+"name": "Angular"},
+
+{
+    "icon": "devicon-spring-original",
+    "name": "SpringBoot"}
+    
 ],
     
     "experience": [
@@ -59,49 +92,30 @@
             "icon": "car",
             "title": "TeLlevoApp",
             "subtitle": "Front-End Flutter Developer",
-            "description": "Desarrollo de una aplicación móvil de transporte compartido utilizando Flutter con arquitectura limpia.",
-            "date": "2024 - Actualidad"
+            "description": "Development of a ride-sharing mobile application using Flutter with clean architecture.",
+            "date": "2024 - Present"
         },
         {
             "icon": "hand-coins",
             "title": "NetPag",
-            "subtitle": "Memorista - Desarrolladora",
-            "description": "Desarrollo de un data mart en SQL Server para la empresa en el área B2C como también desarrollos web con React.",
+            "subtitle": "Undergraduate Thesis Student - Developer",
+            "description": "Development of a data mart in SQL Server for the company's B2C area, along with web development using React.",
             "date": "2023 - 2024"
         },
         {
             "icon": "hand-coins",
             "title": "NetPag",
             "subtitle": "Data Engineer",
-            "description": "Práctica profesional desarrollando ETLs mediante Talend y trabajando con SQL Server.",
+            "description": "Internship developing ETL processes using Talend and working with SQL Server.",
             "date": "2022 - 2022"
         }
     ],
     "projects": [
         {
-            "icon": "glasses",
-            "title": "Fake Friend",
-            "subtitle": "Simulador en realidad virtual",
-            "description": "Simulador en realidad virtual que imita los efectos tanto a corto como a largo plazo de drogas depresoras, estimulantes y alucinógenas.",
-            "technologies": [
-                {
-                    "icon": "devicon-csharp-plain",
-                    "name": "C#"
-                },
-                {
-                    "icon": "devicon-unity-plain",
-                    "name": "Unity"
-                }
-            ],
-            "image": "/fakefriend.jpg",
-            "url": "https://fakefriend.feriadesoftware.cl/",
-            "github": "https://github.com/javysus/Fake-Friend-VR"
-        },
-        {
             "icon": "library-big",
-            "title": "Sistema de Préstamo en Biblioteca",
-            "subtitle": "Desarrollo de front-end",
-            "description": "Plataforma web para realizar préstamos en una biblioteca. Desarrollo de front-end.",
+            "title": "Library Loan System",
+            "subtitle": "Front-End Development",
+            "description": "Web platform for managing book loans in a library.",
             "technologies": [
                 {
                     "icon": "devicon-reactbootstrap-original",
@@ -113,12 +127,52 @@
                 }
             ],
             "github": "https://github.com/javysus/WWW-frontend"
+        }
+
+    ],
+    "dataprojects":[
+        {
+            "icon": "database",
+            "title": "Data mart for a debt collection company",
+            "subtitle": "Thesis Project",
+            "description": "Design and implementation of a data mart to support decision-making in a debt collection company's B2C business line.",
+            "technologies": [
+                {
+                    "icon": "devicon-microsoftsqlserver-plain",
+                    "name": "SQL Server"
+                },
+
+                {
+                    "icon": "devicon-apachespark-plain-wordmark",
+                    "name": "Apache Spark"
+                },
+
+                {
+                    "icon": "devicon-sqlalchemy-plain",
+                    "name": "SQLAlchemy"
+                },
+
+                {
+                    "icon": "devicon-hadoop-plain",
+                    "name": "Hadoop"
+                },
+
+                {
+                    "icon": "devicon-docker-plain",
+                    "name": "Docker"
+                },
+
+                {
+                    "icon": "",
+                    "name": "Power BI"
+                }
+            ]
         },
         {
             "icon": "library-big",
-            "title": "Sistema de Préstamo en Biblioteca",
-            "subtitle": "Desarrollo de back-end",
-            "description": "Plataforma web para realizar préstamos en una biblioteca.",
+            "title": "Library Loan System",
+            "subtitle": "Back-End Development",
+            "description": "Web platform for managing book loans in a library.",
             "technologies": [
                 {
                     "icon": "devicon-graphql-plain",
@@ -131,49 +185,72 @@
             ],
             "github": "https://github.com/javysus/WWW-backend"
         },
+
         {
             "icon": "message-circle",
             "title": "Chat",
-            "subtitle": "Desarrollo de back-end",
-            "description": "Desarrollo de API y Websocket para la creación de un chat.",
+            "subtitle": "Back-End Development",
+            "description": "API and WebSocket development for building a real-time chat application.",
             "technologies": [
                 {
-                    "icon": "devicon-springboot-plain",
+                    "icon": "devicon-spring-original",
                     "name": "Springboot"
                 }
             ],
             "github": "https://github.com/javysus/Chat_SpringBoot"
         }
     ],
+
+    "gameprojects": [
+        {
+            "icon": "glasses",
+            "title": "Fake Friend",
+            "subtitle": "Virtual Reality Simulator",
+            "description": "Virtual reality simulator that replicates the short- and long-term effects of depressant, stimulant, and hallucinogenic drugs.",
+            "technologies": [
+                {
+                    "icon": "devicon-csharp-plain",
+                    "name": "C#"
+                },
+                {
+                    "icon": "devicon-unity-plain",
+                    "name": "Unity"
+                }
+            ],
+            "image": "/fakefriend.jpg",
+            "url": "https://fakefriend.feriadesoftware.cl/"
+        }
+    ],
     "training": [
         {
             "icon": "graduation-cap",
-            "title": "Universidad Técnica Federico Santa María",
-            "subtitle": "Ingeniería Civil Informática",
+            "title": "Federico Santa María Technical University",
+            "subtitle": "Bachelor's Degree in Computer Engineering",
             "description": "",
             "date": "2024"
         },
         {
             "icon": "university",
-            "title": "Universidad Autónoma de Chile",
-            "subtitle": "Diplomado en Inteligencia Artificial",
+            "title": "Autonomous University of Chile",
+            "subtitle": "Diploma in Artificial Intelligence",
             "description": "",
             "date": "2024"
         },
         {
             "icon": "university",
-            "title": "Universidad de Chile",
-            "subtitle": "Movilidad Parcial",
-            "description": "En mis estudios de Ingeniería Civil Informática, curse asignaturas en la Universidad de Chile como programa de Movilidad Parcial de mi Universidad.\n Desarrollo de aplicaciones web \n Procesamiento masivo de datos.",
+            "title": "University of Chile",
+            "subtitle": "Exchange Program",
+            "description": "As part of my Computer Engineering studies, I completed courses at the University of Chile through my university’s exchange program: Web Application Development and Big Data Processing.",
             "date": "2022"
         },
         {
             "icon": "school",
-            "title": "Colegio Academia de Humanidades Padres Dominicos",
-            "subtitle": "Educación Media",
+            "title": "Academia de Humanidades Padres Dominicos School",
+            "subtitle": "High School Education",
             "description": "",
             "date": "2016"
         }
+        
     ],
     "extras": [
       

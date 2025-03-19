@@ -8,6 +8,7 @@ from portafolio.views.header import header
 from portafolio.views.info import info
 from portafolio.views.tech_stack import tech_stack
 from portafolio.views.frameworks import frameworks
+from portafolio.views.data_skills import data_skills
 DATA = data.data
 
 
@@ -19,11 +20,13 @@ def index() -> rx.Component:
             about(DATA.about),
             rx.divider(),
             tech_stack(DATA.technologies),
+            data_skills(DATA.dataskills),
             frameworks(DATA.frameworks),
-            info("Experiencia", DATA.experience),
-            info("Proyectos", DATA.projects),
-            info("Formación", DATA.training),
-            extra(DATA.extras),
+            info("Experience", DATA.experience),
+            info("Data & Back-End Projects", DATA.dataprojects),
+            info("Front-End & Mobile Projects", DATA.projects),
+            info("Game / VR Development Projects", DATA.gameprojects),
+            info("Education", DATA.training),
             rx.divider(),
             footer(DATA.media),
             spacing=Size.MEDIUM.value,

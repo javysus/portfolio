@@ -19,7 +19,7 @@ class Framework:
         self.icon = icon
         self.name = name
 
-class Software:
+class DataSkill:
     def __init__(self, icon, name):
         self.icon = icon
         self.name = name
@@ -35,7 +35,6 @@ class Info:
         self.date = date
         self.certificate = certificate
         self.technologies = technologies
-        #[Technology(tech['icon'], tech['name']) for tech in technologies]
         self.image = image
         self.url = url
         self.github = github
@@ -62,9 +61,12 @@ class Data:
             media,
             about,
             technologies,
+            dataskills,
             frameworks,
             experience,
             projects,
+            dataprojects,
+            gameprojects,
             training,
             extras
     ):
@@ -79,10 +81,11 @@ class Data:
         self.about = about
         self.technologies = technologies
         self.frameworks = frameworks
-        #self.technologies = [Technology(**tech) for tech in technologies]
-        #self.frameworks = [Framework(**tech) for tech in frameworks]
+        self.dataskills = dataskills
         self.experience = [Info(**info) for info in experience]
         self.projects = [Info(**info) for info in projects]
+        self.dataprojects = [Info(**info) for info in dataprojects]
+        self.gameprojects = [Info(**info) for info in gameprojects]
         self.training = [Info(**info) for info in training]
         self.extras = [Extra(**info) for info in extras]
 

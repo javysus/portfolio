@@ -6,7 +6,7 @@ from portafolio.styles.styles import EmSize, Size
 
 def frameworks(technologies: list[Framework]) -> rx.Component:
     return rx.vstack(
-        heading("Frameworks y Librerías"),
+        heading("Full Stack Skills"),
         rx.flex(
             *[
                 rx.badge(
